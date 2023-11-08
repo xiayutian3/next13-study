@@ -16,5 +16,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  corePlugins:{
+    preflight:false  //禁止设置初始值
+  }
 }
 export default config
